@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { EnrichedMessage, Message } from "../utils/type";
 import contacts from "../data/contacts.json";
 import { HashLoader } from "react-spinners";
+import { toast } from "react-toastify";
 
 export default function SentMessages() {
   const [messages, setMessages] = useState<EnrichedMessage[]>([]);
@@ -51,7 +52,31 @@ export default function SentMessages() {
     fetchMessages();
   }, []);
 
-  // Render loading state if messages are still being fetched
+  // Handle message deletion with optimistic UI update
+  const handleDelete = async (id: string) => {
+    // Optimistically update UI by removing the message immediately
+    const updatedMessages = messages.filter((msg) => msg._id.toString() !== id);
+    setMessages(updatedMessages);
+
+    try {
+      const response = await fetch("/api/delete-message", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id }),
+      });
+
+      if (!response.ok) throw new Error("Server responded with error");
+
+      // Show success toast
+      toast.success("Message deleted successfully");
+    } catch (error) {
+      // Log error and rollback to previous message list
+      console.log("An error occured while deleting message", error);
+      setMessages(messages);
+    }
+  };
+
+  // Show loading spinner while messages are being fetched
   if (loading) {
     return (
       <div className="flex justify-center items-center min-h-[55vh]">
@@ -60,12 +85,12 @@ export default function SentMessages() {
     );
   }
 
-  // Render error message if something goes wrong
+  // Show error if something went wrong during fetch
   if (error) {
     return <div className="text-center text-red-500">{error}</div>;
   }
 
-  // Render message list if there are no errors and messages are fetched
+  // Show fallback if no messages were found
   if (messages.length === 0) {
     return <div className="text-center">No messages sent</div>;
   }
@@ -87,6 +112,13 @@ export default function SentMessages() {
             <p className="text-sm text-gray-400 dark:text-gray-600">
               {message.message}
             </p>
+            <button
+              onClick={() => handleDelete(message._id.toString())}
+              className="text-white bg-blue-500 px-2
+             py-0.5 rounded-lg hover:bg-blue-500/80"
+            >
+              Delete
+            </button>
           </div>
         );
       })}
