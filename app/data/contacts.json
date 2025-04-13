@@ -3,19 +3,19 @@
     "id": "1",
     "firstName": "Data",
     "lastName": "Taskers",
-    "email": "alice.johnson@example.com",
+    "email": "contact.dataTaskers@domain.com",
     "phone": "+919810153260",
     "company": "Data Taskers",
     "position": "Hiring Team"
   },
   {
     "id": "2",
-    "firstName": "Bob",
-    "lastName": "Smith",
-    "email": "bob.smith@example.com",
+    "firstName": "Kalab",
+    "lastName": "Muhamed",
+    "email": "aman123manimna@gmail.com",
     "phone": "+251968350741",
     "company": "DataWave Solutions",
-    "position": "Backend Engineer"
+    "position": "Full-stack Engineer"
   },
   {
     "id": "3",
