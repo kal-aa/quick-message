@@ -1,0 +1,308 @@
+[
+  {
+    "id": "1",
+    "firstName": "Data",
+    "lastName": "Taskers",
+    "email": "alice.johnson@example.com",
+    "phone": "+919810153260",
+    "company": "Data Taskers",
+    "position": "Hiring Team"
+  },
+  {
+    "id": "2",
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "email": "bob.smith@example.com",
+    "phone": "+251968350741",
+    "company": "DataWave Solutions",
+    "position": "Backend Engineer"
+  },
+  {
+    "id": "3",
+    "firstName": "Clara",
+    "lastName": "Lee",
+    "email": "clara.lee@example.com",
+    "phone": "+1-555-9012",
+    "company": "HealthSync",
+    "position": "Product Manager"
+  },
+  {
+    "id": "4",
+    "firstName": "David",
+    "lastName": "Martinez",
+    "email": "david.martinez@example.com",
+    "phone": "+1-555-3456",
+    "company": "Marketify",
+    "position": "UX Designer"
+  },
+  {
+    "id": "5",
+    "firstName": "Ella",
+    "lastName": "Nguyen",
+    "email": "ella.nguyen@example.com",
+    "phone": "+1-555-7890",
+    "company": "CodeCraft",
+    "position": "DevOps Engineer"
+  },
+  {
+    "id": "6",
+    "firstName": "Frank",
+    "lastName": "Williams",
+    "email": "frank.williams@example.com",
+    "phone": "+1-555-2345",
+    "company": "WebWorks",
+    "position": "Full Stack Developer"
+  },
+  {
+    "id": "7",
+    "firstName": "Grace",
+    "lastName": "Davis",
+    "email": "grace.davis@example.com",
+    "phone": "+1-555-6789",
+    "company": "TechFlow",
+    "position": "Frontend Developer"
+  },
+  {
+    "id": "8",
+    "firstName": "Henry",
+    "lastName": "Harris",
+    "email": "henry.harris@example.com",
+    "phone": "+1-555-5670",
+    "company": "InnoTech",
+    "position": "Backend Engineer"
+  },
+  {
+    "id": "9",
+    "firstName": "Isla",
+    "lastName": "Scott",
+    "email": "isla.scott@example.com",
+    "phone": "+1-555-1111",
+    "company": "DesignPro",
+    "position": "UX/UI Designer"
+  },
+  {
+    "id": "10",
+    "firstName": "Jack",
+    "lastName": "Taylor",
+    "email": "jack.taylor@example.com",
+    "phone": "+1-555-2222",
+    "company": "AppDev Studios",
+    "position": "Mobile Developer"
+  },
+  {
+    "id": "11",
+    "firstName": "Kylie",
+    "lastName": "Young",
+    "email": "kylie.young@example.com",
+    "phone": "+1-555-3333",
+    "company": "CodeVerse",
+    "position": "Backend Engineer"
+  },
+  {
+    "id": "12",
+    "firstName": "Liam",
+    "lastName": "King",
+    "email": "liam.king@example.com",
+    "phone": "+1-555-4444",
+    "company": "MediaTech",
+    "position": "Frontend Developer"
+  },
+  {
+    "id": "13",
+    "firstName": "Maya",
+    "lastName": "Lopez",
+    "email": "maya.lopez@example.com",
+    "phone": "+1-555-5555",
+    "company": "SoftDev",
+    "position": "Full Stack Developer"
+  },
+  {
+    "id": "14",
+    "firstName": "Nathan",
+    "lastName": "Gonzalez",
+    "email": "nathan.gonzalez@example.com",
+    "phone": "+1-555-6666",
+    "company": "CreativeWorks",
+    "position": "UI Designer"
+  },
+  {
+    "id": "15",
+    "firstName": "Olivia",
+    "lastName": "Martinez",
+    "email": "olivia.martinez@example.com",
+    "phone": "+1-555-7777",
+    "company": "TechSpark",
+    "position": "Product Manager"
+  },
+  {
+    "id": "16",
+    "firstName": "Paul",
+    "lastName": "Perez",
+    "email": "paul.perez@example.com",
+    "phone": "+1-555-8888",
+    "company": "CloudSoft",
+    "position": "Backend Engineer"
+  },
+  {
+    "id": "17",
+    "firstName": "Quinn",
+    "lastName": "Baker",
+    "email": "quinn.baker@example.com",
+    "phone": "+1-555-9999",
+    "company": "TechBuilders",
+    "position": "Frontend Developer"
+  },
+  {
+    "id": "18",
+    "firstName": "Rachel",
+    "lastName": "Carter",
+    "email": "rachel.carter@example.com",
+    "phone": "+1-555-1112",
+    "company": "DigitalWorks",
+    "position": "Product Manager"
+  },
+  {
+    "id": "19",
+    "firstName": "Sam",
+    "lastName": "Green",
+    "email": "sam.green@example.com",
+    "phone": "+1-555-2223",
+    "company": "DevOps Co",
+    "position": "DevOps Engineer"
+  },
+  {
+    "id": "20",
+    "firstName": "Tina",
+    "lastName": "Evans",
+    "email": "tina.evans@example.com",
+    "phone": "+1-555-3334",
+    "company": "TechForce",
+    "position": "Full Stack Developer"
+  },
+  {
+    "id": "21",
+    "firstName": "Ursula",
+    "lastName": "Parker",
+    "email": "ursula.parker@example.com",
+    "phone": "+1-555-4445",
+    "company": "CodeWave",
+    "position": "UX/UI Designer"
+  },
+  {
+    "id": "22",
+    "firstName": "Victor",
+    "lastName": "Morris",
+    "email": "victor.morris@example.com",
+    "phone": "+1-555-5556",
+    "company": "Webflow Studios",
+    "position": "Backend Developer"
+  },
+  {
+    "id": "23",
+    "firstName": "Wendy",
+    "lastName": "Roberts",
+    "email": "wendy.roberts@example.com",
+    "phone": "+1-555-6667",
+    "company": "DevTech",
+    "position": "Frontend Developer"
+  },
+  {
+    "id": "24",
+    "firstName": "Xander",
+    "lastName": "Cooper",
+    "email": "xander.cooper@example.com",
+    "phone": "+1-555-7778",
+    "company": "Digital Systems",
+    "position": "UX Designer"
+  },
+  {
+    "id": "25",
+    "firstName": "Yara",
+    "lastName": "Hughes",
+    "email": "yara.hughes@example.com",
+    "phone": "+1-555-8889",
+    "company": "Tech Innovations",
+    "position": "Product Designer"
+  },
+  {
+    "id": "26",
+    "firstName": "Zane",
+    "lastName": "Foster",
+    "email": "zane.foster@example.com",
+    "phone": "+1-555-9990",
+    "company": "CloudTech",
+    "position": "Backend Engineer"
+  },
+  {
+    "id": "27",
+    "firstName": "Ava",
+    "lastName": "Patterson",
+    "email": "ava.patterson@example.com",
+    "phone": "+1-555-1212",
+    "company": "CodeLogic",
+    "position": "DevOps Engineer"
+  },
+  {
+    "id": "28",
+    "firstName": "Ben",
+    "lastName": "Richards",
+    "email": "ben.richards@example.com",
+    "phone": "+1-555-2323",
+    "company": "DataSync",
+    "position": "Full Stack Developer"
+  },
+  {
+    "id": "29",
+    "firstName": "Cathy",
+    "lastName": "Wright",
+    "email": "cathy.wright@example.com",
+    "phone": "+1-555-3434",
+    "company": "AppDev Co",
+    "position": "Frontend Developer"
+  },
+  {
+    "id": "30",
+    "firstName": "Derek",
+    "lastName": "Hall",
+    "email": "derek.hall@example.com",
+    "phone": "+1-555-4545",
+    "company": "SoftWorks",
+    "position": "Backend Developer"
+  },
+  {
+    "id": "31",
+    "firstName": "Emily",
+    "lastName": "Adams",
+    "email": "emily.adams@example.com",
+    "phone": "+1-555-5656",
+    "company": "TechSolutions",
+    "position": "Product Manager"
+  },
+  {
+    "id": "32",
+    "firstName": "Frankie",
+    "lastName": "Roberts",
+    "email": "frankie.roberts@example.com",
+    "phone": "+1-555-6767",
+    "company": "DesignTech",
+    "position": "UX Designer"
+  },
+  {
+    "id": "33",
+    "firstName": "Gina",
+    "lastName": "Clark",
+    "email": "gina.clark@example.com",
+    "phone": "+1-555-7878",
+    "company": "CloudWorks",
+    "position": "Frontend Developer"
+  },
+  {
+    "id": "34",
+    "firstName": "Holly",
+    "lastName": "Davis",
+    "email": "holly.davis@example.com",
+    "phone": "+1-555-8989",
+    "company": "TechGrowth",
+    "position": "Backend Engineer"
+  }
+]
